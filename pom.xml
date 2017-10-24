@@ -7,6 +7,7 @@
   <name>AWS IoT Device SDK for Java</name>
   <description>The AWS IoT Device SDK for Java provides Java APIs for devices to connect to AWS IoT service using the MQTT protocol. The SDK also provides support for AWS IoT specific features, such as Thing Shadow and Thing Shadow abstraction.</description>
   <url>https://aws.amazon.com/iot/sdk</url>
+
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -14,6 +15,7 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
   <developers>
     <developer>
       <id>amazonwebservices</id>
@@ -24,22 +26,27 @@
       </roles>
     </developer>
   </developers>
+
   <scm>
     <url>https://github.com/aws/aws-iot-device-sdk-java.git</url>
   </scm>
+
   <modules>
     <module>aws-iot-device-sdk-java</module>
     <module>aws-iot-device-sdk-java-samples</module>
   </modules>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
